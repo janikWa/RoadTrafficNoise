@@ -33,7 +33,8 @@ df = pd.read_excel(path)
 
 df["Dezibel_ber"] = np.nan
 
-directory = "audio"  
+#Audio Dateien sind nicht im Repo, da zu groß. Bei bedarf lokalen Pfad einfügen 
+directory = "/Users/janikwahrheit/Library/CloudStorage/OneDrive-Persönlich/01_Studium/01_Bachelor/05. WS_2024_25/Seminar RTN"  
 
 for file in os.listdir(directory):
     filename = os.fsdecode(file)  
