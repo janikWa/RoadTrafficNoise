@@ -3,6 +3,7 @@ import numpy as np
 import os 
 from scipy.io import wavfile
 
+# function for decibel compression 
 def convert(file_path): 
     sample_rate, data = wavfile.read(file_path)
 
@@ -18,6 +19,7 @@ def convert(file_path):
     else:
         max_amplitude = np.max(np.abs(data))  
 
+    # dB calculation
     data = np.where(data == 0, np.finfo(float).eps, data) 
     dbfs_data = 20 * np.log10(np.abs(data) / max_amplitude)
 
