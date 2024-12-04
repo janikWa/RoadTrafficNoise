@@ -2,11 +2,15 @@ import pandas as pd
 import numpy as np
 import os 
 from scipy.io import wavfile
+import scipy.signal as signal
 
 # function for decibel compression 
 def convert(file_path): 
+    
+    # INPUT: file path OUTPUT: average sound-power-level in decibel
     sample_rate, data = wavfile.read(file_path)
 
+    # stereo to mono transformation 
     if len(data.shape) == 2:
         data = np.mean(data, axis=1)  
 
@@ -36,7 +40,7 @@ df = pd.read_excel(path)
 df["Dezibel_ber"] = np.nan
 
 #Audio Dateien sind nicht im Repo, da zu groß. Bei bedarf lokalen Pfad einfügen 
-directory = "/Users/janikwahrheit/Library/CloudStorage/OneDrive-Persönlich/01_Studium/01_Bachelor/05. WS_2024_25/Seminar RTN"  
+directory = "/Users/Anton/Documents/KIT/Seminare/RTN/Audio rtn-samples/IDMT_Traffic/audio/Preprocessed_Audiofiles"  
 
 for file in os.listdir(directory):
     filename = os.fsdecode(file)  
@@ -45,9 +49,9 @@ for file in os.listdir(directory):
         file_path = os.path.join(directory, filename)  
         try:
             decibel = convert(file_path)  
-            filename_without_extension = filename.replace(".wav", "")  
+            filename_without_extension = filename.replace("_preprocessed.wav", "")  
             df.loc[df['file'] == filename_without_extension, "Dezibel_ber"] = decibel
         except FileNotFoundError:
             print(f"Datei nicht gefunden: {file_path}")
         
-df.to_excel("SoundData.xlsx")
+df.to_excel("SoundDataWithPreprocessing.xlsx")
