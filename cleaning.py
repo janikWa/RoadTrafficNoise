@@ -16,7 +16,7 @@ print('-'*30)
 
 #################################
 ### cleaning step 1: drop unneeded columns ###
-columns_to_drop = ['file', 'sample_pos', 'channel', 'date_time', 'daytime', 'Index']
+columns_to_drop = ['sample_pos', 'channel', 'date_time', 'daytime', 'Index']
 df_1 = df.drop(columns=columns_to_drop)
 
 #################################
