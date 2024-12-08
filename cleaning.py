@@ -16,7 +16,8 @@ print('-'*30)
 
 #################################
 ### cleaning step 1: drop unneeded columns ###
-columns_to_drop = ['file', 'sample_pos', 'channel', 'date_time', 'daytime', 'Index']
+columns_to_drop = ['file', 'sample_pos', 'channel', 
+                   'date_time', 'daytime', 'Index']
 df_1 = df.drop(columns=columns_to_drop)
 
 #################################
@@ -38,6 +39,7 @@ quote = 100 * (len(df_1[df_1['weather'].isna() & (df_1['is_background'] == True 
 print( f"{quote:.2f}% of NULL-values are in the same row with the feature is_background == true")
 
 # drop rows with is_background == true
+
 df_2 = df_1[df_1['is_background'] != True]
 
 
@@ -57,7 +59,11 @@ print(df_2[df_2['location'] == 'Hohenwarte']['speed_kmh'])
 print("Number of unlabeled Data regarding speed: ", len(df_2[df_2['location'] == 'Hohenwarte']))
 
 # drop rows of unlabeled speed data 
-df_3 = df_2[~((df_2['location'] == 'Hohenwarte') & (df_2['speed_kmh'] == "UNK"))]
+
+df_3 = df_2[~((df_2['location'] == 'Hohenwarte') 
+              & (df_2['speed_kmh'] == "UNK"))]
+
+# drop low quality microphone??
 
 
 ### Final: Save clean data with index=False to preserve proper formatting
