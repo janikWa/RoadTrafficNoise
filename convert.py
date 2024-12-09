@@ -35,8 +35,7 @@ df = pd.read_excel(path)
 
 df["Dezibel_ber"] = np.nan
 
-#Audio Dateien sind nicht im Repo, da zu groß. Bei bedarf lokalen Pfad einfügen 
-directory = "/Users/janikwahrheit/Library/CloudStorage/OneDrive-Persönlich/01_Studium/01_Bachelor/05. WS_2024_25/Seminar RTN"  
+directory = "/Users/janikwahrheit/Library/CloudStorage/OneDrive-Persönlich/01_Studium/01_Bachelor/05. WS_2024_25/Seminar RTN/audio"  
 
 for file in os.listdir(directory):
     filename = os.fsdecode(file)  
@@ -50,4 +49,4 @@ for file in os.listdir(directory):
         except FileNotFoundError:
             print(f"Datei nicht gefunden: {file_path}")
         
-df.to_excel("SoundData.xlsx")
+df.to_excel("Uncleaned.xlsx")
