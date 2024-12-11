@@ -1,0 +1,2 @@
+# Organisatorisches:
+Bitte nicht in die "privaten" Ordner RTN-jakob oder RTN-Antonia committen. Dass wir unterschiedliche Ordner haben, hat den Grund, dass wir vieles gleichzeitig und parallel ausprobieren konnten. Aber in Zukunft wäre es besser, wenn wir uns absprechen wer wann arbeitet, damit keine Merge Conflicts entstehen. Und wir sollten dann auch immer auf separaten Branches arbeiten (nicht auf main).
