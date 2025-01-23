@@ -1,0 +1,34 @@
+Iteration: 0, Accuracy: 0.9053, Confusion Matrix: [[1525  117]
+ [ 149 1018]], Dropped Feature: mfcc_2, Feature Importance: 2.3759, Remaining Features: 57
+Iteration: 1, Accuracy: 0.9078, Confusion Matrix: [[1530  112]
+ [ 147 1020]], Dropped Feature: band_24_dB, Feature Importance: 2.8380, Remaining Features: 56
+Iteration: 2, Accuracy: 0.9078, Confusion Matrix: [[1533  109]
+ [ 150 1017]], Dropped Feature: band_25_dB, Feature Importance: 2.2989, Remaining Features: 55
+Iteration: 3, Accuracy: 0.9078, Confusion Matrix: [[1533  109]
+ [ 150 1017]], Dropped Feature: band_19_dB, Feature Importance: 1.8524, Remaining Features: 54
+Iteration: 4, Accuracy: 0.9064, Confusion Matrix: [[1532  110]
+ [ 153 1014]], Dropped Feature: band_26_dB, Feature Importance: 1.6340, Remaining Features: 53
+Iteration: 5, Accuracy: 0.9060, Confusion Matrix: [[1530  112]
+ [ 152 1015]], Dropped Feature: channel_encoded, Feature Importance: 1.6536, Remaining Features: 52
+Iteration: 6, Accuracy: 0.9057, Confusion Matrix: [[1528  114]
+ [ 151 1016]], Dropped Feature: location_encoded, Feature Importance: 1.9904, Remaining Features: 51
+Iteration: 7, Accuracy: 0.8993, Confusion Matrix: [[1517  125]
+ [ 158 1009]], Dropped Feature: mfcc_3, Feature Importance: 2.1519, Remaining Features: 50
+Iteration: 8, Accuracy: 0.8950, Confusion Matrix: [[1507  135]
+ [ 160 1007]], Dropped Feature: band_29_dB, Feature Importance: 2.6887, Remaining Features: 49
+Iteration: 9, Accuracy: 0.8928, Confusion Matrix: [[1506  136]
+ [ 165 1002]], Dropped Feature: band_28_dB, Feature Importance: 3.7505, Remaining Features: 48
+Iteration: 10, Accuracy: 0.8918, Confusion Matrix: [[1509  133]
+ [ 171  996]], Dropped Feature: band_27_dB, Feature Importance: 5.8678, Remaining Features: 47
+Iteration: 11, Accuracy: 0.8871, Confusion Matrix: [[1510  132]
+ [ 185  982]], Dropped Feature: octband_dB_mean, Feature Importance: 11.8320, Remaining Features: 46
+Iteration: 12, Accuracy: 0.8775, Confusion Matrix: [[1502  140]
+ [ 204  963]], Dropped Feature: peak_dB_1, Feature Importance: 4.6819, Remaining Features: 45
+Iteration: 13, Accuracy: 0.8565, Confusion Matrix: [[1479  163]
+ [ 240  927]], Dropped Feature: peak_dB_2, Feature Importance: 4.4949, Remaining Features: 44
+Iteration: 14, Accuracy: 0.8448, Confusion Matrix: [[1460  182]
+ [ 254  913]], Dropped Feature: peak_dB_3, Feature Importance: 5.2342, Remaining Features: 43
+Iteration: 15, Accuracy: 0.8302, Confusion Matrix: [[1442  200]
+ [ 277  890]], Dropped Feature: band_22_dB, Feature Importance: 3.0990, Remaining Features: 42
+Iteration: 16, Accuracy: 0.8330, Confusion Matrix: [[1447  195]
+ [ 274  893]], Dropped Feature: band_18_dB, Feature Importance: 1.9518, Remaining Features: 41
