@@ -1,0 +1,102 @@
+Iteration: 0, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_29_dB, Feature Importance: 0.2665, Remaining Features: 57
+Iteration: 1, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_28_dB, Feature Importance: 0.2920, Remaining Features: 56
+Iteration: 2, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: mfcc_2, Feature Importance: 0.2863, Remaining Features: 55
+Iteration: 3, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: mfcc_1, Feature Importance: 0.2174, Remaining Features: 54
+Iteration: 4, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: channel_encoded, Feature Importance: 0.2001, Remaining Features: 53
+Iteration: 5, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_27_dB, Feature Importance: 0.1656, Remaining Features: 52
+Iteration: 6, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: peak_dB_3, Feature Importance: 0.1786, Remaining Features: 51
+Iteration: 7, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_26_dB, Feature Importance: 0.1252, Remaining Features: 50
+Iteration: 8, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: location_encoded, Feature Importance: 0.1931, Remaining Features: 49
+Iteration: 9, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: mfcc_3, Feature Importance: 0.1272, Remaining Features: 48
+Iteration: 10, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_25_dB, Feature Importance: 0.1573, Remaining Features: 47
+Iteration: 11, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: weather_encoded, Feature Importance: 0.3849, Remaining Features: 46
+Iteration: 12, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_14_dB, Feature Importance: 0.5021, Remaining Features: 45
+Iteration: 13, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: date_time_encoded, Feature Importance: 0.3542, Remaining Features: 44
+Iteration: 14, Accuracy: 0.8548, Confusion Matrix: [[1484  158]
+ [ 250  917]], Dropped Feature: speed_kmh_encoded, Feature Importance: 0.1108, Remaining Features: 43
+Iteration: 15, Accuracy: 0.8402, Confusion Matrix: [[1472  170]
+ [ 279  888]], Dropped Feature: mfcc_4, Feature Importance: 0.0722, Remaining Features: 42
+Iteration: 16, Accuracy: 0.8526, Confusion Matrix: [[1473  169]
+ [ 245  922]], Dropped Feature: microphone_encoded, Feature Importance: 0.0913, Remaining Features: 41
+Iteration: 0, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_29_dB, Feature Importance: 0.2665, Remaining Features: 57
+Iteration: 1, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_28_dB, Feature Importance: 0.2920, Remaining Features: 56
+Iteration: 2, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: mfcc_2, Feature Importance: 0.2863, Remaining Features: 55
+Iteration: 3, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: mfcc_1, Feature Importance: 0.2174, Remaining Features: 54
+Iteration: 4, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: channel_encoded, Feature Importance: 0.2001, Remaining Features: 53
+Iteration: 5, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_27_dB, Feature Importance: 0.1656, Remaining Features: 52
+Iteration: 6, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: peak_dB_3, Feature Importance: 0.1786, Remaining Features: 51
+Iteration: 7, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_26_dB, Feature Importance: 0.1252, Remaining Features: 50
+Iteration: 8, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: location_encoded, Feature Importance: 0.1931, Remaining Features: 49
+Iteration: 9, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: mfcc_3, Feature Importance: 0.1272, Remaining Features: 48
+Iteration: 10, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_25_dB, Feature Importance: 0.1573, Remaining Features: 47
+Iteration: 11, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: weather_encoded, Feature Importance: 0.3849, Remaining Features: 46
+Iteration: 12, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_14_dB, Feature Importance: 0.5021, Remaining Features: 45
+Iteration: 13, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: date_time_encoded, Feature Importance: 0.3542, Remaining Features: 44
+Iteration: 14, Accuracy: 0.8548, Confusion Matrix: [[1484  158]
+ [ 250  917]], Dropped Feature: speed_kmh_encoded, Feature Importance: 0.1108, Remaining Features: 43
+Iteration: 15, Accuracy: 0.8402, Confusion Matrix: [[1472  170]
+ [ 279  888]], Dropped Feature: mfcc_4, Feature Importance: 0.0722, Remaining Features: 42
+Iteration: 16, Accuracy: 0.8526, Confusion Matrix: [[1473  169]
+ [ 245  922]], Dropped Feature: microphone_encoded, Feature Importance: 0.0913, Remaining Features: 41
+Iteration: 0, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_29_dB, Feature Importance: 0.2665, Remaining Features: 57
+Iteration: 1, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_28_dB, Feature Importance: 0.2920, Remaining Features: 56
+Iteration: 2, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: mfcc_2, Feature Importance: 0.2863, Remaining Features: 55
+Iteration: 3, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: mfcc_1, Feature Importance: 0.2174, Remaining Features: 54
+Iteration: 4, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: channel_encoded, Feature Importance: 0.2001, Remaining Features: 53
+Iteration: 5, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_27_dB, Feature Importance: 0.1656, Remaining Features: 52
+Iteration: 6, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: peak_dB_3, Feature Importance: 0.1786, Remaining Features: 51
+Iteration: 7, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_26_dB, Feature Importance: 0.1252, Remaining Features: 50
+Iteration: 8, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: location_encoded, Feature Importance: 0.1931, Remaining Features: 49
+Iteration: 9, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: mfcc_3, Feature Importance: 0.1272, Remaining Features: 48
+Iteration: 10, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_25_dB, Feature Importance: 0.1573, Remaining Features: 47
+Iteration: 11, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: weather_encoded, Feature Importance: 0.3849, Remaining Features: 46
+Iteration: 12, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: band_14_dB, Feature Importance: 0.5021, Remaining Features: 45
+Iteration: 13, Accuracy: 1.0000, Confusion Matrix: [[1642    0]
+ [   0 1167]], Dropped Feature: date_time_encoded, Feature Importance: 0.3542, Remaining Features: 44
+Iteration: 14, Accuracy: 0.8548, Confusion Matrix: [[1484  158]
+ [ 250  917]], Dropped Feature: speed_kmh_encoded, Feature Importance: 0.1108, Remaining Features: 43
+Iteration: 15, Accuracy: 0.8402, Confusion Matrix: [[1472  170]
+ [ 279  888]], Dropped Feature: mfcc_4, Feature Importance: 0.0722, Remaining Features: 42
+Iteration: 16, Accuracy: 0.8526, Confusion Matrix: [[1473  169]
+ [ 245  922]], Dropped Feature: microphone_encoded, Feature Importance: 0.0913, Remaining Features: 41
