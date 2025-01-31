@@ -1,3 +1,5 @@
 .DS_Store
 BiLSTM/
 LSTM/
+IDMT-Traffic/preprocessed_audio/
+#speed_classification/
